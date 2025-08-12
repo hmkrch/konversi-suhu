@@ -11,16 +11,22 @@
     <div class="container">
       <div class="wrapper">
         <div class="title-name">Pilih Suhu:</div>
-        <select name="suhu" id="suhu">
+        <select name="suhu" id="pilihSuhu">
           <option value="celcius">Celcius</option>
           <option value="fahrenheit">Fahrenheit</option>
         </select>
       </div>
-      <section>
-        <label for="">Celcius:</label>
-        <input id="celciusInpt" type="number" />
+      <div class="suhu-wrapper">
+        <section id="kolomC" class="">
+          <label for="">Celcius:</label>
+          <input class="" id="celciusInpt" type="number" />
+        </section>
+        <section id="kolomF" class="hide">
+          <label for="">Fahrenheit:</label>
+          <input id="fahrenheitInpt" type="number" />
+        </section>
         <button id="cekHasilBtn">Cek Hasil</button>
-      </section>
+      </div>
       <section>
         <label for="">Hasil:</label>
         <h3 id="tampilkanHasil">(tampilkan disini...)</h3>

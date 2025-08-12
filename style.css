@@ -24,6 +24,14 @@
   margin-bottom: 50px;
 }
 
+.suhu-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
 section {
   display: flex;
   flex-direction: column;
@@ -31,4 +39,14 @@ section {
   align-items: center;
   gap: 20px;
   border: 1px solid;
+}
+
+/* #cekHasilBtn {
+  margin: 0px auto;
+} */
+
+/* Hide salah satu konversi suhu */
+
+.hide {
+  display: none;
 }
