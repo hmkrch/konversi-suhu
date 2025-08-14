@@ -6,3 +6,8 @@
  => menyimpan dan menghitung angka tersebut
  3. user klik "Cek Hasil" 
  => menampilkan hasil yg sudah di hitung ke "Hasil"
+
+
+Fitur:
+ -Menambah Fitur tema gelap dan terang
+ -
